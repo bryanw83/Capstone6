@@ -1,0 +1,24 @@
+body{
+	
+}
+
+h1{
+	
+	background-image: linear-gradient(to bottom right, darkred, white);
+	border: 2px solid black;
+	border-radius: 0 0 4px 0;
+	color: white;
+	font-size: 70px;
+	padding: 8px;
+	text-shadow: 2px 2px gray;
+	
+}
+
+h2{
+	bacground-color: #590303;
+	border: 1px solid black;
+	border-radius: 4px;
+	font-size: 30px;
+	margin: 0 20% 0 20%;
+	text-align: center;
+}
