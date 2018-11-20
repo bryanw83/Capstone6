@@ -15,22 +15,62 @@
 </head>
 <body>
 
-	<h1>GC Employee Task Database</h1><br><br>
+	<div class="container">
+		<div class="jumbotron">
+			<h1>Welcome the GC Soccer League</h1>
+		</div>
+		
+				${message }
+			<div class="row">
+		<div class="col-lg-3">
+			<h2>Login</h2>
+		</div>
+		</div>
+		<div class="row"> 
+		<div class="col-lg-3">
+			<form class="mb-2 mr-2" action="login-request">
+			
+				<div class="form-group mx-sm-3 mb-2 ">
+					<div class="form-group">
+						<label class="mx-sm-3 mb-2" for="username">Username: </label>
+						<input id="username" class="form-control mx-sm-3 mb-2"  type="text" name="username" required>
+					</div>
+					<div class="form-group">
+						<label class="mx-sm-3 mb-2" for="userpassword">Password: </label>
+						<input id="userpassword" class="form-control mx-sm-3 mb-2"  type="password" name="userpassword" required>
+					</div>
+			
+					<input class="form-control btn btn-primary mx-sm-3 mb-2" type="submit" value="Login"></div>
 	
-	<h2>Employee Login<br><br>
+			</form>
+		</div>
+		</div><br><br>
+				
+	<div class="row">
+		<div class="col-lg-3">
+			<h2>Register</h2>
+		</div>
+		</div>
+		<div class="row"> 
+		<div class="col-lg-3">
+			<form class="mb-2 mr-2" action="login-confirmed">
+			
+				<div class="form-group mx-sm-3 mb-2 ">
+					<div class="form-group">
+						<label class="mx-sm-3 mb-2" for="uname">Username: </label>
+						<input id="uname" class="form-control mx-sm-3 mb-2"  type="text" name="username" required>
+					</div>
+					<div class="form-group">
+						<label class="mx-sm-3 mb-2" for="pass">Password: </label>
+						<input id="pass" class="form-control mx-sm-3 mb-2"  type="password" name="password" required>
+					</div>
+			
+					<input class=" form-control btn btn-primary mx-sm-3 mb-2" type="submit" value="Register"></div>
 	
-	<div class="formstyle">
-		<form action="login" onsubmit="return validateInfo();">
-			User Name: <input type="text" name="username"> 
-			<input type="submit" value="Who You Be?"> <br><br>
-			Password: <input type="text" name="userpassword"> 
-			<input type="submit" value="What It Be?"> 
+			</form>
+		</div>
+		</div>
 
-		</form>
 	</div>
-	
-	</h2>
-
-
 </body>
 </html>
